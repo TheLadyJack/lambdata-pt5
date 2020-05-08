@@ -7,17 +7,17 @@ class Polo:
         self.price = price
 
 
-def wash(self):
-    print(f"WASHING THE {self.size.upper()}")
+    def wash(self):
+        print(f"WASHING THE {self.size.upper()} {self.color.upper()} POLO!")
 
 
 if __name__ == "__main__":
     # only execute if run from the command-line (not when imported)
 
     polo = Polo(size="Large", color="Blue")
-    print(polo.size, polo.color)
+    print(polo.size, polo.color, polo.price)
     polo.wash()
 
     polo2 = Polo(size="Small", color="Yellow")
-    print(polo2. size, polo2.color)
+    print(polo2.size, polo2.color, polo2.price)
     polo2.wash()
