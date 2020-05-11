@@ -5,10 +5,10 @@
 
 
 ```sh
-pip install -i https://test.pypi.org/simple/ DRodriguez615-lambdata-pt4
+pip install -i https://test.pypi.org/simple/ DRodriguez615-lambdata-pt5
 
 # in future maybe:
-#pip install DRodriguez615-lambdata-pt4 
+#pip install DRodriguez615-lambdata-pt5 
 ``` 
 
 ## Usage
